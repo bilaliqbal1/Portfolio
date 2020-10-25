@@ -569,3 +569,31 @@ a.icon-up-bg:hover {color: #212121;}
     color: #fff;
     text-align: center;
 }
+
+.site-logo1 {
+    width: 70px;
+    height: 70px;
+    display: block;
+    overflow: visible;
+    border: 5px solid #494c4e;
+    position: relative;
+    transform: rotate(0deg);
+    transition: transform .4s ease-in-out;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.site-logo1 .logo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: transform .4s ease-in-out;
+    font-weight: 700;
+    font-size: 15px;
+}
+.site-logo1:hover {
+    opacity: 1;
+    transform: rotate(-90deg);
+    transition: transform .4s ease-in-out;
+}
